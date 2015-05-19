@@ -1,3 +1,11 @@
+/* code for evalution made for the Frisk Luft project at www.friskby.no
+
+Portions are based on code from Ciseco.co.uk and http://www.howmuchsnow.com/arduino/airquality/ 
+
+The code assume a Sharp dust sensor and a DHT temperature and humidity sensor
+
+*/
+
 #include <LLAPSerial.h>
 #include <DHT.h>
 
