@@ -16,8 +16,8 @@ float calcVoltage = 0;
 float dustDensity = 0;
 
 #define DEVICEID "DS"	// this is the LLAP device ID
-#define DHTPIN 4     // what I/O the DHT-22 data pin is connected to
-#define DHTTYPE DHT11   // DHT 22  (AM2302)
+#define DHTPIN 4     // I/O pin of the DHT-22
+#define DHTTYPE DHT22   // DHT 22  (AM2302)
 
 DHT dht(DHTPIN, DHTTYPE);
 
