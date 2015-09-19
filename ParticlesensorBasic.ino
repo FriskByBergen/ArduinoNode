@@ -13,8 +13,8 @@ int ledPower = 5;   //Connect 3 led driver pins of dust sensor to Arduino D5
 int samplingTime = 280; // ms that the resistor will heat
 int deltaTime = 40; // ms that the resistor will heat after measurement
 
-float voMeasured = 0;
-float calcVoltage = 0;
+volatile float voMeasured = 0;
+volatile float calcVoltage = 0;
 
 // function that will be triggered by a timer every xx second
 void readDust() {
